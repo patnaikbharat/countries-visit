@@ -1,0 +1,138 @@
+.main-container {
+  background-color: #161624;
+  height: auto;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.heading {
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  margin-top: 10px;
+}
+
+.countries-name-container {
+  background-color: #1f1f2f;
+  border: solid 1px #94a3b8;
+  border-radius: 10px;
+  height: 40vh;
+  padding-left: 0px;
+  overflow-y: scroll;
+}
+
+.list-item {
+  list-style: none;
+  width: 100%;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: #1f1f2f;
+}
+
+.country-name {
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.visit-button {
+  background-color: #3b82f6;
+  border-radius: 5px;
+  border-width: 0px;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  height: 30px;
+  width: 85px;
+  cursor: pointer;
+}
+
+.visited {
+  color: #334155;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  margin-right: 15px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+hr {
+  border: solid 1px #94a3b8;
+}
+
+.visited-countries-text {
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: 500;
+  font-family: 'Roboto';
+}
+
+.countries-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-left: 0px;
+}
+
+.country-item {
+  list-style: none;
+  width: 32%;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.country-image {
+  width: 100%;
+  margin-bottom: 0px;
+}
+
+.thumbnail-country-name {
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: 'Roboto';
+}
+
+.remove-button {
+  background-color: transparent;
+  border: solid 1px #f8fafc;
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  height: 30px;
+  width: 85px;
+  cursor: pointer;
+}
+
+.no-country-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+
+.no-country-text {
+  color: #f1f5f9;
+  font-size: 25px;
+  font-weight: 500;
+  font-family: 'Roboto';
+}
